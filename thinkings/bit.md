@@ -36,8 +36,8 @@ class Solution:
         return single_number
 ```
 ***复杂度分析***
-- 时间复杂度：$O(N)$，其中N为数组长度。
-- 空间复杂度：$O(1)$
+- 时间复杂度：$$O(N)$$，其中N为数组长度。
+- 空间复杂度：$$O(1)$$
 
 
 ## 137. 只出现一次的数字2
@@ -88,12 +88,12 @@ var singleNumber = function(nums) {
 ```
 
 ***复杂度分析***
-- 时间复杂度：$O(N)$，其中N为数组长度。
-- 空间复杂度：$O(1)$
+- 时间复杂度：$$O(N)$$，其中N为数组长度。
+- 空间复杂度：$$O(1)$$
 
 ## 645. 错误的集合
 
-和上面的`137. 只出现一次的数字2`思路一样。这题没有限制空间复杂度，因此直接hashmap 存储一下没问题。 不多说了，我们来看一种空间复杂度$O(1)$的解法。
+和上面的`137. 只出现一次的数字2`思路一样。这题没有限制空间复杂度，因此直接hashmap 存储一下没问题。 不多说了，我们来看一种空间复杂度$$O(1)$$的解法。
 
 由于和`137. 只出现一次的数字2`思路基本一样，我直接复用了代码。具体思路是，将nums的所有索引提取出一个数组idx，那么由idx和nums组成的数组构成singleNumbers的输入，其输出是唯二不同的两个数。
 
@@ -135,8 +135,8 @@ class Solution:
 ```
 
 ***复杂度分析***
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$$O(N)$$
+- 空间复杂度：$$O(1)$$
 
 
 ## 260. 只出现一次的数字3
@@ -186,17 +186,18 @@ class Solution:
 ```
 
 ***复杂度分析***
-- 时间复杂度：$O(N)$，其中N为数组长度。
-- 空间复杂度：$O(1)$
+- 时间复杂度：$$O(N)$$，其中N为数组长度。
+- 空间复杂度：$$O(1)$$
 
 
 ## 相关题目
 
-- [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)
-- [counting-bits](https://leetcode-cn.com/problems/counting-bits/)
-- [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)
+- [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)（简单）
+- [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)（简单）
+- [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)（中等）
+- [1072. 按列翻转得到最大值等行数](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/)（中等）
 
 
-更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经30K star啦。
+更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经38K star啦。
 
 关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
